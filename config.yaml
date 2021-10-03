@@ -1,0 +1,43 @@
+baseURL: 'http://example.org/'
+languageCode: 'es'
+title: 'Ejemplo para clase'
+theme: 'vanilla-bootstrap-hugo-theme'
+
+
+menu:
+  nav:
+  - name: Inicio
+    pre: home
+    url: /
+    weight: 1
+  - name: Blog
+    pre: edit
+    url: /post/
+    weight: 2
+  - name: Etiquetas
+    pre: tag
+    url: /tags/
+    weight: 3
+  - name: Fotos
+    pre: tag
+    url: /fotos/
+    weight: 4
+  - name: "Sobre mi"
+    pre: smile
+    url: /about/
+    weight: 10
+  - name: RSS
+    pre: rss
+    url: /index.xml
+    weight: 15
+
+
+params:
+  includeBootstrapJs: true
+  showActiveNav: true
+  containerMaxWidth: 900px
+  dateFormat: Jan 2, 2006
+  homeText: Texto incial en la primera **página**. Soporta sintaxis *.md
+  footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
+  hideFooter: false
+  katex: true
